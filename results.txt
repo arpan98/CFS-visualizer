@@ -1,0 +1,52 @@
+Scheduler Started
+CPU Time = 0
+Updating Slices
+CPU Time = 1
+Adding A with vruntime 0
+Updating Slices
+Task A has slice = 6000
+Removing A with vruntime 0
+CPU Time = 2
+Adding B with vruntime 0
+Adding C with vruntime 0
+Updating Slices
+Task A has slice = 1874
+Task B has slice = 2927
+Task C has slice = 1199
+CPU Time = 3
+Updating Slices
+Task A has slice = 1874
+Task B has slice = 2927
+Task C has slice = 1199
+A is over
+CPU Time = 4
+Updating Slices
+Task B has slice = 4257
+Task C has slice = 1743
+Removing B with vruntime 0
+Updating min_vruntime to 0
+CPU Time = 5
+Updating Slices
+Task B has slice = 4257
+Task C has slice = 1743
+CPU Time = 6
+Updating Slices
+Task B has slice = 4257
+Task C has slice = 1743
+CPU Time = 7
+Updating Slices
+Task B has slice = 4257
+Task C has slice = 1743
+B is over
+CPU Time = 8
+Updating Slices
+Task C has slice = 6000
+Removing C with vruntime 0
+CPU Time = 9
+Updating Slices
+Task C has slice = 6000
+CPU Time = 10
+Updating Slices
+Task C has slice = 6000
+C is over
+Scheduler Finishes
