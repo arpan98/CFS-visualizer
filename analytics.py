@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-n = 3
+n = 5
 
 truntimes = []
 cpu_times = []
@@ -59,7 +59,10 @@ with open('results.txt', 'r') as file:
 print truntimes
 
 for x in xrange(0,n):
-    plt.plot(cpu_times, truntimes[x])
+    plt.plot(cpu_times, truntimes[x], label=str(unichr(x+65)))
 
+plt.legend(loc='upper left')
+plt.xlabel('CPU Time')
+plt.ylabel('Total Virtual Runtime')
 plt.show()
     

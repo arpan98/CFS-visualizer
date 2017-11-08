@@ -1,52 +1,51 @@
-Scheduler Started
-CPU Time = 0
-Updating Slices
-CPU Time = 1
-Adding A with vruntime 0
-Updating Slices
-Task A has slice = 6000
-Removing A with vruntime 0
-CPU Time = 2
-Adding B with vruntime 0
-Adding C with vruntime 0
-Updating Slices
-Task A has slice = 1874
-Task B has slice = 2927
-Task C has slice = 1199
-CPU Time = 3
-Updating Slices
-Task A has slice = 1874
-Task B has slice = 2927
-Task C has slice = 1199
-A is over
-CPU Time = 4
-Updating Slices
-Task B has slice = 4257
-Task C has slice = 1743
-Removing B with vruntime 0
-Updating min_vruntime to 0
-CPU Time = 5
-Updating Slices
-Task B has slice = 4257
-Task C has slice = 1743
-CPU Time = 6
-Updating Slices
-Task B has slice = 4257
-Task C has slice = 1743
-CPU Time = 7
-Updating Slices
-Task B has slice = 4257
-Task C has slice = 1743
-B is over
-CPU Time = 8
-Updating Slices
-Task C has slice = 6000
-Removing C with vruntime 0
-CPU Time = 9
-Updating Slices
-Task C has slice = 6000
-CPU Time = 10
-Updating Slices
-Task C has slice = 6000
-C is over
-Scheduler Finishes
+0 [0]:
+1 [5]: A
+2 [5]: A
+3 [5]: B
+4 [5]: B
+5 [5]: C
+6 [5]: C
+7 [5]: D
+8 [5]: D
+9 [5]: E
+10 [5]: E
+11 [5]: E
+12 [5]: A
+13 [5]: A
+14 [5]: B
+15 [5]: B
+16 [5]: C
+17 [5]: C
+18 [5]: D
+19 [5]: D
+20 [5]: E
+21 [5]: E
+22 [5]: A
+23 [5]: A
+24 [5]: B
+25 [5]: B
+26 [5]: C
+27 [5]: C
+28 [5]: D
+29 [5]: D
+30 [5]: E
+31 [5]: E
+32 [5]: A
+33 [5]: A
+34 [5]: B
+35 [5]: B
+36 [5]: C
+37 [5]: C
+38 [5]: D
+39 [5]: D
+40 [5]: E
+41 [5]: E
+42 [5]: A
+43 [5]: A, Completed
+44 [4]: B
+45 [4]: B, Completed
+46 [3]: C
+47 [3]: C, Completed
+48 [2]: D
+49 [2]: D, Completed
+50 [1]: E, Completed
